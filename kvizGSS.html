@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<ul class="navLinks">
+      <li><a href="index.html">BEOGRAD - KOORDINATE</a></li>
+      <li><a href="index.html">POČETNA</a></li>
+      <li><a href="oGradjevinama.html">O GRADJEVINAMA</a></li>
+      <li><a href="oLicnostima.html">O LIČNOSTIMA</a></li>
+      <li><a href="EvropDM.html">DUH METROPOLE</a></li>
+      <li><a href="Fragmenti.html">FRAGMENTI</a></li>
+      <li><a class="active" href="Kvizovi.html">KVIZOVI</a></li>
+</ul>
+      <div id="Kvizovi" class="page current">
+      <hr color="#000">
+      <img src="Materijal/2. Baner - Kviz.jpg" style="width: 100%;">
+      <hr color="#000">
+      <button class="idi-nazad" onclick="goBack()" style="margin-top: 40px;">Nazad na kvizove</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+      <body onload="SledecePitanje(0)">
+        <main>
+            <div class="modal-container" id="tabela">
+    
+                <div class="modal-content-container">
+    
+                    <h1>Zavrsili ste kviz, ovo su rezultati:</h1>
+    
+                    <div class="grade-details">
+                        <p>Broj pogresnih odgovora : <span id="brojPogresnihOdgovara"></span></p>
+                        <p>Broj tacnih odgovora : <span id="brojTacnihOdgovara"></span></p>
+                        <p>Broj poena : <span id="brojProcenata"></span></p>
+                        <p ><span id="posveta"></span></p>
+                    </div>
+    
+                    <div class="modal-button-container">
+                        <button onclick="zatvoriTabeluRezultata()">Nastavi</button>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="game-quiz-container">
+    
+                <div class="game-details-container">
+                    <h1>Broj tacnih odgovora : <span id="broj-poena"></span> / <span id="brojPitanja1"></span></h1>
+                    <h1>Pitanje : <span id="broj-pitanja"></span> / <span id="brojPitanja"></span></h1>
+                </div>
+                
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>                  
+
+                <div class="game-question-container">
+                    <h1 id="prikazi-pitanje"></h1>
+                </div>
+    
+                <div class="game-options-container">
+    
+                   <div class="modal-container" id="tabelaOpcija">
+    
+                        <div class="modal-content-container">
+                             <h1>Odaberi jednu od ponudjenih opcija</h1>
+    
+                             <div class="modal-button-container">
+                                <button onclick="closeOptionModal()">Nastavi</button>
+                            </div>
+    
+                        </div>
+    
+                   </div>
+    
+                    <span>
+                        <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                        <label for="option-one" class="option" id="opcija-jedan"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                        <label for="option-two" class="option" id="opcija-dva"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                        <label for="option-three" class="option" id="opcija-tri"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                        <label for="option-four" class="option" id="opcija-cetiri"></label>
+                    </span>
+    
+    
+                </div>
+    
+                <div class="next-button-container">
+                    <button onclick="sledecePitanje()">Sledece pitanje</button>
+                </div>
+    
+            </div>
+        </main>
+        <script src="kviz.js"></script>
+    </body>
+      <hr color="#000">
+      <div class="header-bottom">
+        <div class="rectangle">
+              <div style="color: white;padding: 32px;">
+                    <div>
+                          <h1 style="text-align: center;padding-bottom: 16px;">Učesnici projekta</h1>
+                          <p style="text-align: center; font-size: 25px;">
+                                GIMNAZIJA "SVETI SAVA"
+                          </p>
+                          <p style="text-align: center; font-size: 25px; padding-bottom: 32px;">
+                                ŠKOLA ZA BRODARSTVO, BRODOGRADNJU I HIDROGRADNJU
+                          </p>
+                          <h1 style="text-align: center;padding-bottom: 16px;">Realizatori projekta</h1>
+                          <p style="text-align: center; font-size: 25px;">
+                                <b>Mima Begović</b> (nastavnica muzičke umetnosti) - saradnik na projektu
+                          </p>
+                          <p style="text-align: center; font-size: 25px; ">
+                                <b> Jelena Đorđević</b> (nastavnica srpskog jezika i književnosti) - saradnik na projektu
+                          </p>
+                          <p style="text-align: center; font-size: 25px; ">
+                                <b>Jelena Sarić</b> (nastavnica izbornog programa umetnost i dizajn) - saradnik na projektu
+                          </p>
+                          <p style="text-align: center; font-size: 25px; padding-bottom: 24PX;">
+                                <b>Mihajlo Cvetković</b> (nastavnik izbornog programa umetnost i dizajn) - autor projekta
+                          </p>
+                          <h1 style="text-align: center;padding-bottom: 16px;">Izrada sajta</h1>
+                          <p style="text-align: center; font-size: 25px;">
+                                Marko Pešić (učenik treće godine IT smera Gimnazije "Sveti Sava")
+                          </p>
+                          <style>
+                                .slike {
+                                  display: flex;
+                                  justify-content: space-between;
+                                  align-items: center;
+                                  margin: 0 6%; 
+                                }
+                              
+                                .image {
+                                  width: 125px;
+                                  height: 125px;
+                                  margin: 0 1%;
+                                }
+                              </style>
+                          <div class="slike">
+                                <img class="img-border" src="Materijal/logo 1  Gimnazija-Sveti-Sava-FI.png" width="125px" height="125px" alt="logo1">
+                                <img class="img-border" src="Materijal/logo 2 ŠBBH logo -01.png" width="125px" height="125px" alt="logo2">
+                                <img class="img-border" src="Materijal/logo 3  .znak-pdnbgd.png" width="125px" height="125px" alt="logo3">
+                                <img class="img-border"src="Materijal/logo 4 sponsor3.png" width="125px" height="125px" alt="logo4">
+                          </div>
+                    </div>
+              </div>
+        </div>
+  </div>
+</div>
+</div>
