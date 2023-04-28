@@ -7,8 +7,8 @@
 <div id="navbar">
       <ul class="navLinks">
             <li><a href="index.html">BEOGRAD - KOORDINATE</a></li>
-            <li><a href="index.html">POČETNA</a></li>
-            <li><a class="active" href="oGradjevinama.html">O GRADJEVINAMA</a></li>
+            <li><a class="active" href="index.html">POČETNA</a></li>
+            <li><a href="oGradjevinama.html">O GRADJEVINAMA</a></li>
             <li><a href="oLicnostima.html">O LIČNOSTIMA</a></li>
             <li><a href="EvropDM.html">DUH METROPOLE</a></li>
             <li><a href="Fragmenti.html">FRAGMENTI</a></li>
@@ -17,7 +17,6 @@
 </div>
 <div id="oGradjevinama" class="page current">
       <hr color="#000">
-      <img src="Materijal/Baneri/2. Baner - O građevinama.jpg" style="width: 100%;">
       <hr color="#000">
       <div style="margin: 96px;">
             
