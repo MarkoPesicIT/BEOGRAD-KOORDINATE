@@ -8,6 +8,10 @@
 .baneri{
   height: auto;
 }
+.page-container {
+  height: 100vh;
+  transition: height 0.5s ease-out;
+}
 
 body {
   font-family: montserrat;
@@ -311,7 +315,7 @@ h4 {
     flex: 1;
     margin-right: 0;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 10vw
   }
 
   .slider-image {
@@ -326,7 +330,7 @@ h4 {
   }
 
   .slider-dugme {
-    font-size: 10vw;
+    font-size: 20vw;
   }
 }
 
@@ -837,4 +841,12 @@ input[type=radio]:checked~.option {
   color: white;
   transition: all 0.3s ease;
   box-shadow: 0px 0px 0.1vw rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .idi-nazad-dugme {
+    font-size: 4vw;
+    margin: 3vw;
+    padding: 12px 24px;
+  }
 }

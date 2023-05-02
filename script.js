@@ -19,4 +19,9 @@ navbar.addEventListener('click', function(event) {
   }
 });
 
+const navbarHeight = document.querySelector('.navbar').offsetHeight;
+const pageContainer = document.querySelector('.page-container');
+pageContainer.classList.add('page-transition');
+pageContainer.style.height = `calc(100vh - ${navbarHeight}px)`;
+
 
