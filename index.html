@@ -1,211 +1,292 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-      <head>
-            <meta charset="utf-8">
-            <title>Početna</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="style.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      </head>
-      <body>
-            <nav>
-                  <input type="checkbox" id="check">
-                  <label for="check" class="checkbtn"> 
-                        <i class="fas fa-bars"></i>
-                  </label>
-                  <label class="logo">BEOGRAD KOORDINATE</label>
-                  <ul>
-                        <li><a class="active" href="index.html">POČETNA</a></li>
-                        <li><a href="oGradjevinama.html">O GRADJEVINAMA</a></li>
-                        <li><a href="oLicnostima.html">O LIČNOSTIMA</a></li>
-                        <li><a href="duhMetropole.html">DUH METROPOLE</a></li>
-                        <li><a href="Fragmenti.html">FRAGMENTI</a></li>
-                        <li><a href="Kvizovi.html">KVIZOVI</a></li>
-                  </ul>
-            </nav>
-            <section>
-                  <img class="baneri" src="Materijal/Baneri/Baner - oznake.jpg" style="width:100vw" alt="baner" >
-                  <header>
-                        <style>
-                              h1 {
-                                  font-size: 3vw;
-                                  margin: 3vw 0;
-                              }
-                              p {
-                                  font-size: 1.5vw; 
-                                  text-align: justify;
-                                  margin: 2vw 0;
-                              }
-                              .row {
-                                  display: flex;
-                                  flex-wrap: wrap;
-                                  justify-content: space-between;
-                                  padding-bottom: 2vw;
-                                  padding-top: 3vw;
-                                  padding-right: 7vw;
-                              }
-                              .column {
-                                  width: 48%;
-                                  margin-bottom: 2vw;
-                              }
 
-                              .autor {
-                                    text-align: right;
-                              }
-                          
-                              /* Media query for screens smaller than 600px */
-                              @media (max-width: 600px) {
-                                  h1 {
-                                      font-size: 7vw;
-                                      margin: 5vw 0;
-                                  }
-                                  p {
-                                      font-size: 4vw; 
-                                      margin: 3vw 0;
-                                  }
-                                  .row {
-                                      padding-right: 0;
-                                  }
-                                  .column {
-                                      width: 100%;
-                                  }
-                              }
-                          </style>
-                        <<div style="margin: 5vw;">
-                              <h1>Uvodni tekst</h1>
-                              <div>
-                                  <p>
-                                          <b>Beograd - Koordinate </b>je platforma nastala na osnovu rezultata multimedijalnog projekta <b>Evropske metropole - Beograd, grad iz fragmenata</b> usmerenog na oblast umetnosti, kulture I društva. Projekat je odobren od <b>Kancelarije za mlade grada Beograda.</b> Sadržaj platforme odnosi se naspecifičnosti Beograda kao što su istorija grada, umetnost i kultura, ličnosti koje su obeležile istoriju grada, spomenici kulture, prostorno kulturno-istorijske celine, kulturne manifestacije i festivali, beogradski šlager, predeone celine, institucije, škole, autobuske linije…<br><br>Tokom rada na projektu ostvaren je multidisciplinarni pristup u aktivnostima koje se odnose na upoznavanje, istraživanje i promociju istorijskih, kultoroloških, turističkih i drugih osobenosti grada Beograda kroz primenu tradicionalnih, savremenih medija i IKT. Rezultati projekta predstavljeni putem ove platforme nastali su tokom radioničarskih aktivnosti u kojima su učestvovali učenici dve škole na teritoriji opštine Savski venac – <b>Gimnazije “Sveti Sava” i Škole za brodarstvo, brodogradnju I hidrogradnju.</b><br><br> Sadržaji projekta predstavljeni su kroz pet tematskih Ograđevinama, O ličnostima, Evropski duh metropole, Fragmenti, Kvizovi.
-                                  </p>
-                              </div>
-                              <h1>O gradjevinama</h1>
-                              <div>
-                                  <p>
-                                          O značajnim građevinama i arhitektama; odabir i
-                                          istraživanje o arhitektonskim zdanjima (fasade, reljefi, grafiti i murali, ličnosti čiji se život i rad vezuju za određeno zdanje).
-                                  </p>
-                              </div>
-                              <h1>O ličnostima</h1>
-                              <div>
-                                  <p>
-                                          Ličnosti koje su obeležile istoriju grada ili su deo života provele u Beogradu, a čija imena nose ulice i trgovi - istraživanje biografija, fotografija, izrada portreta klasičnim i savremenim likovnim tehnikama.
-                                  </p>
-                              </div>
-                              <h1>Duh metropole</h1>
-                              <div>
-                                  <p>
-                                          Beograd i druge evropske metropole obuhvata istraživanja koja se odnose na vezu Beograda sa drugim evropskim metropolama kroz arhitekturu, modu, događaje, prikaz gradskog života, putopise. Ovaj segment platform odnosi se I na rad ličnosti osnivača manifestacija i festival čije je mesto na evropskoj i svetskoj mapi kulturnih događaja  od izuzetnog značaja, među kojima su Mira Trailović (Bitef) i Milutin Čolić (FEST). 
-                                  </p>
-                              </div>
-                              <h1>Fragmenti</h1>
-                              <div>
-                                  <p>
-                                          Celina na koju se direktno odnosi sam naziv projekta treba dodatno da podstakne utisak o raznolikosti grada, njegovoj slojevitosti kao u pogledu istrijskog i kulturnog nasleđa tako i u pogledu uticaja različitih kulturnih sredina kroz porces migracija koje su se odvijale tokom prošlosti i traju do današnjih dana. Utisak o različitosti reflektovan je kroz realizaciju likovnih radova sa motivima grada kao što su  fasade i njeni detalji, ulice, ulične scene, stilovi u arhitekturi, portreti određenih ličnosti, likovni prikazi starih zanata. Različiti senzibiliteti i likovni izraz učesnika dodatno pojačavaju utisak strukturne slojevitosti metropole kao što je Beograd.
-                                  </p>
-                              </div>
-                              <h1>Kvizovi</h1>
-                              <div>
-                                  <p>
-                                          Kvizovi se odnose na rezultate prethodnih istraživanja. Svaki od kvizova pokriva različite segmente istraživanja - O građevinama, O ličnostima, Istorija Gimnazije “Sveti Sava”. Lokalna istorija odražava stvarnost da su naši životi oblikovani određenim mestima i da je naše fizičko mesto u svetu jedna od ključnih odrednica načina nakoji živimo. Proučavanje istorije grada kao mesta svakodnevnih borbi i trijumfa običnih ljudi može doprineti većem razumevanju neposrednog okruženja kao i drugih pitanja sa kojima se svakodnevno susrećemo. Cilj ove platform je da kod mladih podstakne radoznalost za istoriju i vrednosti grada u kome se školuju i žive kao sopstvenevrednosti koja može imati najdirektnijeg uticaja na putanju njihovih života. Na kraju, putem ove platform i kroz njenu izgradnju mladi kreiraju sliku grada učeći o okruženju u kojem žive i prostoru kroz koji se svakodnevno kreću.
-                                  </p>
-                              </div>
-                              <div style="text-align: right; margin-top: 7vw;">
-                                  <p class="autor">
-                                      <b>Mihailo Cvetković,</b><br>nastavnik izbornog programa Umetnost i dizajn
-                                  </p>
-                              </div>
-                              <h1>Autori banera</h1>
-                              <div class="row">
-                                  <div class="column">
-                                      <p>
-                                          1. Ivona Živanović <br>
-                                                2. Larisa Đurić<br>
-                                                5. Jovan Isailović<br>
-                                                6. Teodora Gavrilović<br>
-                                                7. Nikoleta Živić<br>
-                                                10. Maksim Grigorjev<br>
-                                                13. Magdalena Lemajić<br>
-                                                14. Nina Trajković<br>
-                                                16. Marko Karanjac<br>
-                                                17. Nikola Tucić<br>
-                                                18. Nina Skakavac<br>
-                                                19. Katarina Milinković<br>
-                                                20. Srna Vuković<br>
-                                                21. Ana Jović<br>
-                                                23. Vuk Bukumirović<br>
-                                                24. Nina Mitić<br>
-                                                25. Marija Mišević<br>
-                                                27. Milica Brozinčević<br>
-                                      </p>
-                                  </div>
-                                  <div class="column">
-                                      <p>
-                                          28. Vanja Milenković<br>
-                                                32. Marija Aleksić<br>
-                                                36. Lara Popov<br>
-                                                37. Lazar Matić<br>
-                                                39. Maja Popović<br>
-                                                42. Suzana Stefanović<br>
-                                                43. Mihailo Simić<br>
-                                                44. Ilija Kumrić<br>
-                                                45. Natalija Nikolić<br>
-                                                46. Relja Mitrović<br>
-                                                47. Danilo Rončević<br>
-                                                49. Iva Marković<br>
-                                                50. Mariana Kučerija<br>
-                                                51. Anela Božović<br>
-                                                52. Marija Milošević<br>
-                                                53. Simona Adulović<br>
-                                                55. Nađa Prodanović<br>
-                                      </p>
-                                  </div>
-                              </div>
-                          </div>
-                          
-                  </header>
-                  <footer>
-                        <div class="rectangle">
-                              <div style="color: white;">
-                                    <div>
-                                          <h1 style="text-align: center;padding-bottom: 1vw; font-size: 3vw;">Učesnici projekta</h1>
-                                          <p style="text-align: center; font-size: 2.5vw;">
-                                                GIMNAZIJA "SVETI SAVA"
-                                          </p>
-                                          <p style="text-align: center; font-size: 2.5vw; padding-bottom: 32px;">
-                                                ŠKOLA ZA BRODARSTVO, BRODOGRADNJU I HIDROGRADNJU
-                                          </p>
-                                          <h1 style="text-align: center;padding-bottom: 1vw;font-size: 3vw;">Realizatori projekta</h1>
-                                          <p style="text-align: center; font-size: 2.5vw;">
-                                                <b>Mima Begović</b> (nastavnica muzičke umetnosti) - saradnik na projektu
-                                          </p>
-                                          <p style="text-align: center; font-size: 2.5vw; ">
-                                                <b> Jelena Đorđević</b> (nastavnica srpskog jezika i književnosti) - saradnik na projektu
-                                          </p>
-                                          <p style="text-align: center; font-size: 2.5vw; ">
-                                                <b>Jelena Sarić</b> (nastavnica izbornog programa umetnost i dizajn) - saradnik na projektu
-                                          </p>
-                                          <p style="text-align: center; font-size: 2.5vw; padding-bottom: 24PX;">
-                                                <b>Mihajlo Cvetković</b> (nastavnik izbornog programa umetnost i dizajn) - autor projekta
-                                          </p>
-                                          <h1 style="text-align: center;padding-bottom: 1vw;font-size: 3vw;">Izrada sajta</h1>
-                                          <p style="text-align: center; font-size: 2.5vw;">
-                                                <b>Marko Pešić</b> (učenik treće godine IT smera Gimnazije "Sveti Sava")
-                                          </p>
-                                          <div class="slike">
-                                                <a href="http://www.sveti-sava.edu.rs/">
-                                                      <img class="image" src="Materijal/Logo/logo 1  Gimnazija-Sveti-Sava-FI.png" alt="logo1" class="image">
-                                                </a>
-                                                <a href="https://www.brodarska.edu.rs/">
-                                                      <img class="image" src="Materijal/Logo/logo 2 ŠBBH logo -01.png" alt="logo2" class="image">
-                                                </a>
-                                                <img class="image" src="Materijal/Logo/logo 3  .znak-pdnbgd.png" alt="logo3" class="image">
-                                                <img class="image" src="Materijal/Logo/logo 4 sponsor3.png" alt="logo4" class="image">
-                                          </div>
-                                              
-                                    </div>
-                              </div>
-                        </div>
-                  </footer>    
-            </section>
-      </body>
+<head>
+  <meta charset="utf-8" />
+  <title>Početna</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <nav>
+    <input type="checkbox" id="check" />
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">BEOGRAD KOORDINATE</label>
+    <ul>
+      <li><a class="active" href="index.html">POČETNA</a></li>
+      <li><a href="oGradjevinama.html">O GRADJEVINAMA</a></li>
+      <li><a href="oLicnostima.html">O LIČNOSTIMA</a></li>
+      <li><a href="duhMetropole.html">DUH METROPOLE</a></li>
+      <li><a href="Fragmenti.html">FRAGMENTI</a></li>
+      <li><a href="Kvizovi.html">KVIZOVI</a></li>
+    </ul>
+  </nav>
+  <section>
+    <img class="baneri" src="Materijal/Baneri/Baner - oznake.jpg" style="width: 100vw" alt="baner">
+    <header>
+      <style>
+        h1 {
+          font-size: 2vw;
+          margin: 3vw 0;
+        }
+
+        p {
+          font-size: 1vw;
+          text-align: justify;
+          margin: 2vw 0;
+        }
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding-bottom: 2vw;
+          padding-top: 3vw;
+          padding-right: 7vw;
+        }
+
+        .column {
+          width: 48%;
+          margin-bottom: 2vw;
+        }
+
+        .autor {
+          text-align: right;
+        }
+
+        @media (max-width: 600px) {
+          h1 {
+            font-size: 7vw;
+            margin: 5vw 0;
+          }
+
+          p {
+            font-size: 4vw;
+            margin: 3vw 0;
+          }
+
+          .row {
+            padding-right: 0;
+          }
+
+          .column {
+            width: 100%;
+          }
+        }
+      </style>
+      <div style="margin: 5vw">
+        <h1>Uvodni tekst</h1>
+        <div>
+          <p>
+            <b>Beograd - Koordinate </b>je platforma nastala na osnovu
+            rezultata multimedijalnog projekta
+            <b>Evropske metropole - Beograd, grad iz fragmenata</b> usmerenog
+            na oblast umetnosti, kulture I društva. Projekat je odobren od
+            <b>Kancelarije za mlade grada Beograda.</b> Sadržaj platforme
+            odnosi se naspecifičnosti Beograda kao što su istorija grada,
+            umetnost i kultura, ličnosti koje su obeležile istoriju grada,
+            spomenici kulture, prostorno kulturno-istorijske celine, kulturne
+            manifestacije i festivali, beogradski šlager, predeone celine,
+            institucije, škole, autobuske linije…<br /><br />Tokom rada na
+            projektu ostvaren je multidisciplinarni pristup u aktivnostima
+            koje se odnose na upoznavanje, istraživanje i promociju
+            istorijskih, kultoroloških, turističkih i drugih osobenosti grada
+            Beograda kroz primenu tradicionalnih, savremenih medija i IKT.
+            Rezultati projekta predstavljeni putem ove platforme nastali su
+            tokom radioničarskih aktivnosti u kojima su učestvovali učenici
+            dve škole na teritoriji opštine Savski venac –
+            <b>Gimnazije “Sveti Sava” i Škole za brodarstvo, brodogradnju I
+              hidrogradnju.</b><br /><br />
+            Sadržaji projekta predstavljeni su kroz pet tematskih
+            Ograđevinama, O ličnostima, Evropski duh metropole, Fragmenti,
+            Kvizovi.
+          </p>
+        </div>
+        <h1>O gradjevinama</h1>
+        <div>
+          <p>
+            O značajnim građevinama i arhitektama; odabir i istraživanje o
+            arhitektonskim zdanjima (fasade, reljefi, grafiti i murali,
+            ličnosti čiji se život i rad vezuju za određeno zdanje).
+          </p>
+        </div>
+        <h1>O ličnostima</h1>
+        <div>
+          <p>
+            Ličnosti koje su obeležile istoriju grada ili su deo života
+            provele u Beogradu, a čija imena nose ulice i trgovi -
+            istraživanje biografija, fotografija, izrada portreta klasičnim i
+            savremenim likovnim tehnikama.
+          </p>
+        </div>
+        <h1>Duh metropole</h1>
+        <div>
+          <p>
+            Beograd i druge evropske metropole obuhvata istraživanja koja se
+            odnose na vezu Beograda sa drugim evropskim metropolama kroz
+            arhitekturu, modu, događaje, prikaz gradskog života, putopise.
+            Ovaj segment platform odnosi se I na rad ličnosti osnivača
+            manifestacija i festival čije je mesto na evropskoj i svetskoj
+            mapi kulturnih događaja od izuzetnog značaja, među kojima su Mira
+            Trailović (Bitef) i Milutin Čolić (FEST).
+          </p>
+        </div>
+        <h1>Fragmenti</h1>
+        <div>
+          <p>
+            Celina na koju se direktno odnosi sam naziv projekta treba dodatno
+            da podstakne utisak o raznolikosti grada, njegovoj slojevitosti
+            kao u pogledu istrijskog i kulturnog nasleđa tako i u pogledu
+            uticaja različitih kulturnih sredina kroz porces migracija koje su
+            se odvijale tokom prošlosti i traju do današnjih dana. Utisak o
+            različitosti reflektovan je kroz realizaciju likovnih radova sa
+            motivima grada kao što su fasade i njeni detalji, ulice, ulične
+            scene, stilovi u arhitekturi, portreti određenih ličnosti, likovni
+            prikazi starih zanata. Različiti senzibiliteti i likovni izraz
+            učesnika dodatno pojačavaju utisak strukturne slojevitosti
+            metropole kao što je Beograd.
+          </p>
+        </div>
+        <h1>Kvizovi</h1>
+        <div>
+          <p>
+            Kvizovi se odnose na rezultate prethodnih istraživanja. Svaki od
+            kvizova pokriva različite segmente istraživanja - O građevinama, O
+            ličnostima, Istorija Gimnazije “Sveti Sava”. Lokalna istorija
+            odražava stvarnost da su naši životi oblikovani određenim mestima
+            i da je naše fizičko mesto u svetu jedna od ključnih odrednica
+            načina nakoji živimo. Proučavanje istorije grada kao mesta
+            svakodnevnih borbi i trijumfa običnih ljudi može doprineti većem
+            razumevanju neposrednog okruženja kao i drugih pitanja sa kojima
+            se svakodnevno susrećemo. Cilj ove platform je da kod mladih
+            podstakne radoznalost za istoriju i vrednosti grada u kome se
+            školuju i žive kao sopstvenevrednosti koja može imati
+            najdirektnijeg uticaja na putanju njihovih života. Na kraju, putem
+            ove platform i kroz njenu izgradnju mladi kreiraju sliku grada
+            učeći o okruženju u kojem žive i prostoru kroz koji se svakodnevno
+            kreću.
+          </p>
+        </div>
+        <div style="text-align: right; margin-top: 7vw">
+          <p class="autor">
+            <b>Mihailo Cvetković,</b><br />nastavnik izbornog programa
+            Umetnost i dizajn
+          </p>
+        </div>
+        <h1>Autori banera</h1>
+        <div class="row">
+          <div class="column">
+            <p>
+              1. Ivona Živanović <br />
+              2. Larisa Đurić<br />
+              5. Jovan Isailović<br />
+              6. Teodora Gavrilović<br />
+              7. Nikoleta Živić<br />
+              10. Maksim Grigorjev<br />
+              13. Magdalena Lemajić<br />
+              14. Nina Trajković<br />
+              16. Marko Karanjac<br />
+              17. Nikola Tucić<br />
+              18. Nina Skakavac<br />
+              19. Katarina Milinković<br />
+              20. Srna Vuković<br />
+              21. Ana Jović<br />
+              23. Vuk Bukumirović<br />
+              24. Nina Mitić<br />
+              25. Marija Mišević<br />
+              27. Milica Brozinčević<br />
+            </p>
+          </div>
+          <div class="column">
+            <p>
+              28. Vanja Milenković<br />
+              32. Marija Aleksić<br />
+              36. Lara Popov<br />
+              37. Lazar Matić<br />
+              39. Maja Popović<br />
+              42. Suzana Stefanović<br />
+              43. Mihailo Simić<br />
+              44. Ilija Kumrić<br />
+              45. Natalija Nikolić<br />
+              46. Relja Mitrović<br />
+              47. Danilo Rončević<br />
+              49. Iva Marković<br />
+              50. Mariana Kučerija<br />
+              51. Anela Božović<br />
+              52. Marija Milošević<br />
+              53. Simona Adulović<br />
+              55. Nađa Prodanović<br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <footer>
+      <div class="rectangle">
+        <div style="color: white">
+          <div>
+            <h1 style="text-align: center; padding-bottom: 1vw; font-size: 3vw">
+              Učesnici projekta
+            </h1>
+            <p style="text-align: center; font-size: 2.5vw">
+              GIMNAZIJA "SVETI SAVA"
+            </p>
+            <p style="
+                  text-align: center;
+                  font-size: 2.5vw;
+                  padding-bottom: 32px;
+                ">
+              ŠKOLA ZA BRODARSTVO, BRODOGRADNJU I HIDROGRADNJU
+            </p>
+            <h1 style="text-align: center; padding-bottom: 1vw; font-size: 3vw">
+              Realizatori projekta
+            </h1>
+            <p style="text-align: center; font-size: 2.5vw">
+              <b>Mima Begović</b> (nastavnica muzičke umetnosti) - saradnik na
+              projektu
+            </p>
+            <p style="text-align: center; font-size: 2.5vw">
+              <b> Jelena Đorđević</b> (nastavnica srpskog jezika i
+              književnosti) - saradnik na projektu
+            </p>
+            <p style="text-align: center; font-size: 2.5vw">
+              <b>Jelena Sarić</b> (nastavnica izbornog programa umetnost i
+              dizajn) - saradnik na projektu
+            </p>
+            <p style="
+                  text-align: center;
+                  font-size: 2.5vw;
+                  padding-bottom: 24px;
+                ">
+              <b>Mihajlo Cvetković</b> (nastavnik izbornog programa umetnost i
+              dizajn) - autor projekta
+            </p>
+            <h1 style="text-align: center; padding-bottom: 1vw; font-size: 3vw">
+              Izrada sajta
+            </h1>
+            <p style="text-align: center; font-size: 2.5vw">
+              <b>Marko Pešić</b> (učenik treće godine IT smera Gimnazije
+              "Sveti Sava")
+            </p>
+            <div class="slike">
+              <a href="http://www.sveti-sava.edu.rs/">
+                <img class="image" src="Materijal/Logo/logo 1  Gimnazija-Sveti-Sava-FI.png" alt="logo1" class="image" />
+              </a>
+              <a href="https://www.brodarska.edu.rs/">
+                <img class="image" src="Materijal/Logo/logo 2 ŠBBH logo -01.png" alt="logo2" class="image" />
+              </a>
+              <img class="image" src="Materijal/Logo/logo 3  .znak-pdnbgd.png" alt="logo3" class="image" />
+              <img class="image" src="Materijal/Logo/logo 4 sponsor3.png" alt="logo4" class="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+</body>
+
 </html>
