@@ -4,12 +4,16 @@ const prevButton = document.querySelector('.slider-prev');
 const nextButton = document.querySelector('.slider-next');
 const slides = [
       {
-        image: 'Materijal/Licnosti/sPandurovic.jpg',
-        text: 'Sima Pandurović (1893 – 1960) poznati je srpski pesnik. Službeničku karijeru otpočeo je kao profesor u valjevskoj gimnaziji, a u Srpskoj kraljevsjkoj četvrtoj gimnaziji* radio je od 1910. do 1913. godine.Upravo u to vreme doživeo je najveću slavu kao mladi i talentovani pesnik (sa zbirkom Posmrtne počasti), ali i ubitačnu kritiku Jovana Skerlića, koji ga je zajedno sa Disom oglasio za rodonačelnika „bolesnog pesimizma“ u srpskoj poeziji. Za vreme Prvog svetskog rata Austrijanci su ga internirali u logore u Boldogasonju i Nežideru. '
+        image: 'Materijal/Kolazi/4. Kolaž - Beograđanka.jpg',
+        text: 'Palatu Beograd projektovao je arhitekta Branko Pešić. Inače, njega često brkaju sa savremenikom gradonačelnikom Brankom Pešićem, čiji se mandat završio nakon što je Beograđanka, sa svojim 101 metrom visine, 23 sprata i 40.000 kvadrata, otvorena za javnost 22. aprila 1974. godine. Urbana legenda kaže, iako za to nikada nisu pruženi dokazi, da je neko u tadašnjoj vlasti bio veoma uzrujan time što najviši objekat u gradu nosi ime Palata "Albanija".- "Kako Albanija u sred Beograda? Hajte ljudi, ne možeto tako. S jedne strane Albanija, s druge Moskva. A, gde jetu Srbija, gde je tu Beograd", navodno je rekao dotični. I bi odlučeno. Najveća zgrada podignuta, zvaćese Palata Beograd i zaseniće sve druge. Rečeno–učinjeno.'
       },
       {
-        image: 'Materijal/Licnosti/sPandurovic.jpg',
-        text: 'Radni vek je proveo kao sekretar Ministarstva prosvete i pomoćnik upravnika Narodne biblioteke. Uređivao je izuzetno uticajan književni časopis „Misao“ i prevodio Molijera i Šekspira.Za vreme nemačke okupacije (1941 – 1944) bio je jedno vreme šef odeljenja Beogradske opštine. Zbog toga, kao i zbog nekih predavanja tokom okupacije, komunisti su ga poslali tzv. Sud časti, i on je, posle osude, do smrti tavorio u siromaštvu.* Gimnaziju „Sveti Sava“ u Beogradu prvobitno se zvala Srpska kraljevsjka četvrta gimnazija od njenog osnivanja 1910. godine do 1919. godine.'
+        image: 'Materijal/Kolazi/4. Kolaž - Beograđanka.jpg',
+        text: 'Za lokaciju je izabrana raskrsnica u centru kako bi zgrada bila vidljiva odasvud i postala novi orijentir koji će svojom dominacijom "zameniti" Palatu "Albanija" i hotel "Moskva". Inače, na toj parceli, na ćošku ulica Kralja Milana i Masarikove, nalazila se kuća Jeremije Milivojević koju je trebalo da zameni objekat braće Teokarović, poznatih predratnih trgovaca. Ipak, Drugi svetski raspršio je ideju ove braće pa je plac dočekao šezdesete i "zlatno doba Beograda" u kome je sagrađena. Izgradnja impresivnog objekta počela je 1969. i trajala je samo pet godina. Odlučeno je da Beograđanke bude ukrašena najkvalitetnijim crnim aluminijumom koji je doteran iz Italije. Tako je dobila van vremenski elegantan izgled koji je, u isto vreme, ulivao i divljenje i poštovanje.'
+      },
+      {
+        image: 'Materijal/Kolazi/4. Kolaž - Beograđanka.jpg',
+        text: 'Ali, nije se tu stalo. Posebna pažnja posvećena je unutrašnjosti Beograđanke. Vidikovac na 22. spratu pružao je pogled na prestonicu od koga dah zataje čak i kada se stoti put nađete pred njim. Inače, vidikovac je zatvoren devedesetih, ali ima naznaka da će biti ponovo otvoren. Zgrada je opremljena posebnim računarskim sistemom koji budno pazi na klimatske uslove u objektu i i spušta roletne u zavisnosti od vremenskih prilika, a tu su i liftovi koji velikom brzinom, ali ne da čoveku bude neprijatno, prevoze ljude od dna do vrha. Svakako Beograđanka beše zgrada koja nije imala premca. A, neki bi možda rekli da konkurencije nema danas. '
       }
     ];
     

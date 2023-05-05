@@ -25,6 +25,77 @@
                   <li><a class="active" href="Kvizovi.html">KVIZOVI</a></li>
             </ul>
       </nav>
+      <style>
+            .container kviz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.column img {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .column {
+    width: 100%;
+  }
+
+  .column img {
+    margin: 0 auto;
+  }
+}
+
+h3 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-size: 22px;
+}
+
+a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+      </style>
       <section>
             <img class="baneri" class="baneri" src="Materijal/Baneri/2. Baner - Kviz.jpg" style="width:100vw;" alt="baner">
             <header>

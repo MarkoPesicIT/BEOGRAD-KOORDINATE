@@ -265,15 +265,15 @@ h4 {
   margin-right: 2vw;
   text-align: justify;
   font-size: 20px;
+  justify-content: center;
 }
 
 .slider-image {
-  flex: 1;
   margin-left: 2vw;
 }
 
 .slider-image img {
-  max-width: 100%;
+  width: 28vw;
   height: auto;
 }
 
@@ -289,7 +289,18 @@ h4 {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  color: #555;
+  border-radius: 50%; /* Makes the button round */
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
 }
+
+.slider-dugme:hover {
+  background-color: #555;
+  color: #fff;
+  border: 2px solid #555;
+}
+
 
 .slider-buttons button {
   margin: 0 5px;
@@ -331,6 +342,11 @@ h4 {
 
   .slider-dugme {
     font-size: 20vw;
+  }
+
+  .slider-image img {
+    width: 80vw;
+    height: auto;
   }
 }
 
@@ -430,76 +446,6 @@ h4 {
 }
 
 /* kvizovi */
-
-.container kviz {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  margin: 20px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 10px;
-}
-
-.column img {
-  border: 1px solid black;
-  border-radius: 30px;
-  padding: 5px;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 768px) {
-  .row {
-    flex-wrap: wrap;
-  }
-
-  .column {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .column {
-    width: 100%;
-  }
-
-  .column img {
-    margin: 0 auto;
-  }
-}
-
-h3 {
-  color: black;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-p {
-  color: black;
-  font-size: 22px;
-}
-
-a {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-img {
-  width: 200px;
-  height: 200px;
-}
 
 /* kviz */
 main {
