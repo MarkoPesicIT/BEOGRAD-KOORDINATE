@@ -13,7 +13,7 @@ const slides = [
       },
       {
         image: 'Materijal/Kolazi/4. Kolaž - Beograđanka.jpg',
-        text: 'Ali, nije se tu stalo. Posebna pažnja posvećena je unutrašnjosti Beograđanke. Vidikovac na 22. spratu pružao je pogled na prestonicu od koga dah zataje čak i kada se stoti put nađete pred njim. Inače, vidikovac je zatvoren devedesetih, ali ima naznaka da će biti ponovo otvoren. Zgrada je opremljena posebnim računarskim sistemom koji budno pazi na klimatske uslove u objektu i i spušta roletne u zavisnosti od vremenskih prilika, a tu su i liftovi koji velikom brzinom, ali ne da čoveku bude neprijatno, prevoze ljude od dna do vrha. Svakako Beograđanka beše zgrada koja nije imala premca. A, neki bi možda rekli da konkurencije nema danas. '
+        text: 'Ali, nije se tu stalo. Posebna pažnja posvećena je unutrašnjosti Beograđanke. Vidikovac na 22. spratu pružao je pogled na prestonicu od koga dah zastaje čak i kada se stoti put nađete pred njim. Inače, vidikovac je zatvoren devedesetih, ali ima naznaka da će biti ponovo otvoren. Zgrada je opremljena posebnim računarskim sistemom koji budno pazi na klimatske uslove u objektu i i spušta roletne u zavisnosti od vremenskih prilika, a tu su i liftovi koji velikom brzinom, ali ne da čoveku bude neprijatno, prevoze ljude od dna do vrha. Svakako Beograđanka beše zgrada koja nije imala premca. A, neki bi možda rekli da konkurencije nema danas. '
       }
     ];
     
