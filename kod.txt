@@ -204,3 +204,74 @@
 		</div>
 	</div>
 </body>
+
+
+
+
+const sliderText = document.querySelector('.slider-text');
+const sliderImage = document.querySelector('.slider-image img');
+const prevButton = document.querySelector('.slider-prev');
+const nextButton = document.querySelector('.slider-next');
+const slides = [
+      {
+        image: '',
+        text: ''
+      },
+      {
+        image: '',
+        text: ''
+      },
+      {
+        image: '',
+        text: ''
+      }
+    ];
+    
+let currentSlide = 0;
+
+// Display initial slide
+sliderText.innerHTML = `
+  <p>${slides[currentSlide].text}</p>
+`;
+sliderImage.src = slides[currentSlide].image;
+
+// Handle previous button click
+prevButton.addEventListener('click', () => {
+  currentSlide--;
+  if (currentSlide < 0) {
+    currentSlide = slides.length - 1;
+  }
+  sliderText.innerHTML = `
+    <p>${slides[currentSlide].text}</p>
+  `;
+  sliderImage.classList.add('hidden');
+  setTimeout(() => {
+    sliderImage.src = slides[currentSlide].image;
+    sliderImage.classList.remove('hidden');
+  }, 0);
+});
+
+// Handle next button click
+nextButton.addEventListener('click', () => {
+  currentSlide++;
+  if (currentSlide > slides.length - 1) {
+    currentSlide = 0;
+  }
+  sliderText.innerHTML = `
+    <p>${slides[currentSlide].text}</p>
+  `;
+  sliderImage.classList.add('hidden');
+  setTimeout(() => {
+    sliderImage.src = slides[currentSlide].image;
+    sliderImage.classList.remove('hidden');
+  }, 0);
+});
+
+// Handle keyboard arrow keys
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') {
+    prevButton.click();
+  } else if (e.key === 'ArrowRight') {
+    nextButton.click();
+  }
+});

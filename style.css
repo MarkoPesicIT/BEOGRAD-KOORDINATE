@@ -23,7 +23,7 @@ nav {
   width: 100%;
 }
 
-label.logo {
+a.logo {
   color: white;
   padding-left: 2vw;
   font-size: 24px;
@@ -130,8 +130,6 @@ section {
 /* Credits */
 .rectangle {
   background-color: rgb(160, 160, 160);
-  border-top-right-radius: 5vw;
-  border-top-left-radius: 5vw;
   border-top: solid black;
   border-top-width: 0.5vw;
   border-color: black;
@@ -473,7 +471,7 @@ main {
 }
 
 .game-question-container {
-  width: 90%;
+  width: 9 0%;
   height: 8vw;
   display: flex;
   align-items: center;
