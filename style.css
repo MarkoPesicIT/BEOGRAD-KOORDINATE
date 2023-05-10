@@ -23,6 +23,11 @@ nav {
   width: 100%;
 }
 
+a.logo:hover {
+  background: none;
+  color: white;
+}
+
 a.logo {
   color: white;
   padding-left: 2vw;
@@ -154,6 +159,48 @@ section {
   border-width: 0.2vw;
 }
 
+.rectangle p{
+  font-size: 2.5vw;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.rectangle h1{
+  font-size: 4vw;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+@media (max-width: 767px) {
+  .rectangle p{
+    font-size: 5vw;
+    text-align: center;
+    margin: 7vw;
+  }
+  
+  .rectangle h1{
+    font-size: 10vw;
+    text-align: center;
+  }
+
+  .slike {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10vw;
+    margin-left: 18vw;
+  }
+
+  .image {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2vw;
+  }
+  
+}
 /* o gradjevinama grid */
 
 .container {
@@ -173,6 +220,16 @@ section {
   height: auto;
   border: 0.2vw solid black;
   object-fit: cover;
+  border-radius: 2.5vw;
+}
+
+.citatAutor p{
+  font-size: 3rem;
+  text-align: justify;
+}
+.citatAutor h1{
+  font-size: 4rem;
+  text-align: right;
 }
 
 .box p {
@@ -187,6 +244,17 @@ section {
 
   .box p {
     font-size: 3vw;
+  }
+
+  .citatAutor p{
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  .citatAutor h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    text-align: right;
   }
 }
 
