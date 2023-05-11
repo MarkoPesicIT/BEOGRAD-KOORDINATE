@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Kviz o Gimnazija Sveti Sava</title>
+    <title>Квиз о Гимназији "Свети Сава</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -11,24 +11,25 @@
 
 <body>
     <nav>
+    <nav>
         <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
         <a href="index.html" class="logo">БЕОГРАД КООРДИНАТЕ</a>
         <ul>
-          <li><a class="active" href="index.html">ПОЧЕТНА</a></li>
+          <li><a href="index.html">ПОЧЕТНА</a></li>
           <li><a href="oGradjevinama.html">O ГРАЂЕВИНАМА</a></li>
           <li><a href="oLicnostima.html">O ЛИЧНОСТИМА</a></li>
           <li><a href="duhMetropole.html">ДУХ МЕТРОПОЛЕ</a></li>
           <li><a href="Fragmenti.html">ФРАГМЕНТИ</a></li>
-          <li><a href="Kvizovi.html">КВИЗОВИ</a></li>
+          <li><a class="active" href="Kvizovi.html">КВИЗОВИ</a></li>
         </ul>
       </nav>
     <section>
         <img class="baneri" src="Materijal/Baneri/2. Baner - Kviz.jpg" style="width:100vw" alt="baner">
         <header>
-            <button class="idi-nazad" onclick="goBack()" style="margin-top: 40px;">Nazad na kvizove</button>
+            <button class="idi-nazad" onclick="goBack()" style="margin-top: 40px;">Назад на квизове</button>
             <script>
                 function goBack() {
                     window.history.back();
@@ -39,11 +40,11 @@
                 <main>
                     <div class="modal-container" id="tabela">
                         <div class="modal-content-container">
-                            <h1>Zavrsili ste kviz, ovo su rezultati:</h1>
+                            <h1>Завршили сте квиз, ово су резултати :</h1>
                             <div class="grade-details">
-                                <p>Broj pogresnih odgovora : <span id="brojPogresnihOdgovara"></span></p>
-                                <p>Broj tacnih odgovora : <span id="brojTacnihOdgovara"></span></p>
-                                <p>Broj poena : <span id="brojProcenata"></span></p>
+                                <p>Број погрешних одговора : <span id="brojPogresnihOdgovara"></span></p>
+                                <p>Број тачних одговора : <span id="brojTacnihOdgovara"></span></p>
+                                <p>Број поена : <span id="brojProcenata"></span></p>
                                 <p><span id="posveta"></span></p>
                             </div>
                             <div class="modal-button-container">
@@ -53,9 +54,9 @@
                     </div>
                     <div class="game-quiz-container">
                         <div class="game-details-container">
-                            <h1>Broj tacnih odgovora : <span id="broj-poena"></span> / <span id="brojPitanja1"></span>
+                            <h1>Број тачних одговора : <span id="broj-poena"></span> / <span id="brojPitanja1"></span>
                             </h1>
-                            <h1>Pitanje : <span id="broj-pitanja"></span> / <span id="brojPitanja"></span></h1>
+                            <h1>Питање : <span id="broj-pitanja"></span> / <span id="brojPitanja"></span></h1>
                         </div>
                         <div class="progress-bar">
                             <div class="progress"></div>
@@ -66,9 +67,9 @@
                         <div class="game-options-container">
                             <div class="modal-container" id="tabelaOpcija">
                                 <div class="modal-content-container">
-                                    <h1>Odaberi jednu od ponudjenih opcija</h1>
+                                    <h1>Oдабери једну од понуђених одговора</h1>
                                     <div class="modal-button-container">
-                                        <button onclick="closeOptionModal()">Nastavi</button>
+                                        <button onclick="closeOptionModal()">Настави</button>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +91,7 @@
                             </span>
                         </div>
                         <div class="next-button-container">
-                            <button onclick="sledecePitanje()">Sledece pitanje</button>
+                            <button onclick="sledecePitanje()">Следеће питање</button>
                         </div>
                     </div>
                 </main>
@@ -129,7 +130,7 @@
                       Израда платформе
                     </h1>
                     <p >
-                      <b>Марко Пешић</b> (ученик треће године ИТ смера Гимназије "Свети Сава")
+                      <b>Марко Пешић</b> (ученик ИТ смера Гимназије "Свети Сава")
                     </p>
                     <div class="slike">
                       <a href="http://www.sveti-sava.edu.rs/">

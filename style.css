@@ -78,18 +78,55 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 952px) {
+@media (max-width: 1600px) {
+  nav {
+    background: black;
+    height: 60px;
+    width: 100%;
+  }
+  
+  a.logo {
+    font-size: 20px;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  a.active,
+  a:hover {
+    background: white;
+    color: black;
+    transition: .8s;
+  }
+}
+
+@media (max-width: 1150px) {
+  
   label.logo {
     font-size: 16px;
     padding-left: 50px;
   }
-
+  
   nav ul li a {
     font-size: 16px;
   }
-}
-
-@media (max-width: 1600px) {
   .checkbtn {
     display: block;
   }
