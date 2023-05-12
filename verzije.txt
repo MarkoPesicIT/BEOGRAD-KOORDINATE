@@ -1,0 +1,82 @@
+27.01.2023
+
+Isplanriane strane i njohva funkcionalnost
+
+1. POČETNA STRANA - (ilustracija 1, baner 1, 4 logoa i uvodni tekst)
+Na kraju stranice treba da ide i spisak učenika koji su radili crteže za baner.
+Na baneru treba da dodam oznake Baner ću kasnije da zamenim novim gde će crtežei biti označeni brojevima.
+
+2. O GRAĐEVINAMA - (Ilustracija  i baner 2)
+Bilo bi dobro da na početku ova stranica bude otvorena u vidu kataloga kao u ilustraciji 2, a da se klikom na određenu opciju (npr. Beograanka) otvori nova opcija gde su sadržaji koji se odnose na odreenu građevinu ili stil u arhitekturi. Nisam još rešio kako treba da izgleda ta stranica, ali pošto je sajt pretežno vizuelnog tipa, bilo bi dobro da postoji prostor za tekst i galerija sa crtežima, slikama i fotografijama.
+
+3. O LIČNOSTIMA - (Ilustracija i baner3)
+Isti princip kao u prethodnom segmentu.
+
+4. EVROPSKI DUH METROPOLE
+Elemente za ovaj segment i pojedinačne stranice O građevinama i O ličnostima bih mogao da ti pošaljem u subotu?
+
+5. FRAGMENTI
+Ova stranica bi trebalo da bude u vidu galerije slika (crteži, slike, fotografije, kolaži)
+
+6. KVIZ - (Ilustracije 4 i 5)
+Na samom početku treba da treba da bude prikazan izbor kvizova (za sada imamo dva)
+Kvizovi su zatvorenog tipa kao u ilustraciji 5. Za svako pitanje ponuđene su 4 opcije (u vidu teksta, slike ili videa) od kojih je jedan tačan odgovor.
+Bilo bi dobro da može da se podesi vreme za svako pitanje (30s, 45s, 60 s, 1.5 min, 2 min, 5 min) i broj poena (10, 20, 30, 50, 80, 100).
+
+29.01.2023
+
+Napravljena prva strana dodat tekst baner osmisljen footer
+Uradjen navbar dodat na njega sve strane dodata animacija (hover)
+Napravljen kostur strane o Licnostima
+
+08.02.2023
+
+Dodata animacija izmedju strana
+osmisljen slider deo za Licnostima
+Iako ne radi u potpunosti dobar je temelj za dalje
+
+14.03.2023
+
+Slider radi savrseno dodao sam za svaku licnost kao i tekstove i slike za njih
+promenjen footer
+
+10.04.2023
+
+u medjuvremenu sam napravio kviz potpuna funkcionalost samo ne mogu da imaju slike kao odgovori
+
+22.04.2023
+
+Strana o gradjevinama je zavrsena 
+Napravljene sve vezane stranice za stranu o gradjevinama
+Ostalo je da se doda za svaku gradjevinu slider
+Logoi skola u footeru su promenjeni u hyperlink koji vodi na odgovarajuci sajt 
+
+24.04.2023
+
+sledeci korak jeste da sajt moze da se koristi i na telefonfa
+Dodat tekst za svaku gradjevinu slider radi
+
+28.04.2023
+
+Totalna promena izgleda footera napravljeno da je zasebna klasa i sve moze da se kontrolise in style.css
+Sajt skoro u potpunsti reaguje na promena velicine ekrana 70%
+Svaka tabela sa slikama kao i footer tekstovi paragrafi i headeri takodje navbar itd
+
+02.05.2023
+
+Sajt u potpunsti reaguje na promenu velicine ekrana
+Tabela sa imenima na index.html radi i na manjim telefonima uz minimalno prelazenje u dva reda
+
+05.05.2023
+
+Dodao sve strane za gradjevine
+Smanjio font kod slajdera za telefone
+Ispravio razne gramaticke greske po celom sajtu
+Dodao poruku da je stranica o fazi izrade za fragmente i duh metropole
+zapoceo sam prebacivanje sajta na cirilicu
+
+11.05.2023
+
+Prebaceno je sve na cirilicu
+Napravljen da logo BEOGRAD KOORDINATE bude yperlink id avodi na pocetnu stranu popravio skejling teksta na telefonima kod slajdera
+Dodao da kod slajdera moze da se slika klikne i da se uvelica da bi mogao da se vidi bolje kolaz
