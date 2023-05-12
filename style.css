@@ -194,7 +194,7 @@ section {
   border-radius: 1vw;
   border-style: solid;
   border-color: black;
-  border-width: 0.2vw;
+  border-width: 0.3vw;
 }
 
 .rectangle p{
@@ -232,10 +232,10 @@ section {
     width: 100vw;
     height: auto;
     object-fit: cover;
-    border-radius: 1vw;
+    border-radius: 3.5vw;
     border-style: solid;
     border-color: black;
-    border-width: 0.2vw;
+    border-width: 0.5vw;
   }
   
 }
@@ -379,7 +379,7 @@ section {
   top: 10px;
   right: 10px;
   color: white;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -475,6 +475,16 @@ h4 {
   .slider-image img {
     width: 80vw;
     height: auto;
+  }
+
+  .enlarged-image .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
   }
 }
 
