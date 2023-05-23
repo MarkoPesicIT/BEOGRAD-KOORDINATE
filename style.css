@@ -933,3 +933,17 @@ input[type=radio]:checked~.option {
     padding: 12px 24px;
   }
 }
+
+
+/* Login */
+
+.login label {
+  font-size: 50px;
+}
+
+.login input {
+  font-size: 50px;
+  margin-right: 5vw;
+}
+
+
